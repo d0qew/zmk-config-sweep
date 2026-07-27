@@ -40,12 +40,12 @@
     combos {
         compatible = "zmk,combos";
 
-        bootloader {
+        bootloader-left {
             bindings = <&bootloader>;
             key-positions = <0 1 2>;
         };
 
-        bootloader {
+        bootloader-right {
             bindings = <&bootloader>;
             key-positions = <9 8 7>;
         };
