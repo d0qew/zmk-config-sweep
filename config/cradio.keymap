@@ -69,10 +69,10 @@
 
         bluetooth {
             bindings = <
-&bt BT_CLR_ALL  &bt BT_SEL 0  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &sys_reset
-&trans          &trans        &trans  &trans  &trans    &trans  &trans  &trans  &trans  &bootloader
-&trans          &trans        &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                                      &trans  &to 0     &trans  &trans
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bootloader  &trans  &trans    &trans  &trans  &trans  &trans  &sys_reset
+&trans          &trans        &trans       &trans  &trans    &trans  &trans  &trans  &trans  &bootloader
+&trans          &trans        &trans       &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                                           &trans  &to 0     &trans  &trans
             >;
         };
     };
