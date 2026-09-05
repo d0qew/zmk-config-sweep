@@ -49,6 +49,11 @@
             bindings = <&bootloader>;
             key-positions = <9 8 7>;
         };
+
+        b {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <20 21 22>;
+        };
     };
 
     keymap {
