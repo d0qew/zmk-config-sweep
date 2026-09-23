@@ -79,9 +79,9 @@
 
         arrows+special {
             bindings = <
-&kp ESCAPE  &trans  &trans        &trans        &trans       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &mo 3
+&kp ESCAPE  &trans  &trans        &trans        &trans       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
 &trans      &trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp MINUS    &kp UNDERSCORE        &kp RIGHT_GUI         &kp RIGHT_ALT      &trans           &trans
-&trans      &trans  &kp TILDE     &kp GRAVE     &trans       &kp LEFT_ARROW        &kp DOWN_ARROW        &kp UP_ARROW       &kp RIGHT_ARROW  &trans
+&trans      &trans  &kp TILDE     &kp GRAVE     &trans       &kp LEFT_ARROW        &kp DOWN_ARROW        &kp UP_ARROW       &kp RIGHT_ARROW  &mo 3
                                   &kp TAB       &kp SPACE    &trans                &trans
             >;
         };
